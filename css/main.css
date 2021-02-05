@@ -5,11 +5,7 @@
 * -------------
 */
 
-/**
-* -------------
-* Global Styles
-* -------------
-*/
+
 .header-title {
   margin:8px 0;
   padding: 15px;
@@ -32,7 +28,6 @@
   line-height: 1;
   }
   
-  
   .header-stripe {
   margin:8px 0;
   }
@@ -51,39 +46,29 @@
   height: 8px;
   background-color: #6236ffbd;
   }
+
+
   body {
-  
+
   }
   
-  p, li, textarea, label, input, select {
-    /* Default font size and line height */
+  .bigtitle {
+  color: #231F20;
+  font-size: 40px;
+  text-align: center;
   }
   
-  h3 {
-    /* Default font, size, and margins */
+  .block{
+  display : flex;
+  justify-content: space-around;
+  align-items: stretch;
   }
-  
-  h4 {
-    /* Default font, size, and margins */
+      
+  .colonne{
+  flex-basis: 0;
+  flex-grow: 1;
   }
-  
-  h5 {
-    /* Default font, size, and margins */
-  }
-  
-  h6 {
-    /* Default font, size, and margins */
-  }
-  
-  
-  a {
-    /* Link color */
-  }
-  
-  a:hover {
-    /* Link color on mouse over */
-  }
-  
+
   
   /**
   * ------
@@ -92,69 +77,9 @@
   */
   
   
-  
-  
   /**
   * ----------
   * Components
   * ----------
   */
 
-body {
-  /* Default font family and font color */
-}
-
-p, li, textarea, label, input, select {
-  /* Default font size and line height */
-}
-
-
-
-h1 {
-   /* Default font, size, and margins */
-}
-
-h2 {
-  /* Default font, size, and margins */
-}
-
-h3 {
-  /* Default font, size, and margins */
-}
-
-h4 {
-  /* Default font, size, and margins */
-}
-
-h5 {
-  /* Default font, size, and margins */
-}
-
-h6 {
-  /* Default font, size, and margins */
-}
-
-
-a {
-  /* Link color */
-}
-
-a:hover {
-  /* Link color on mouse over */
-}
-
-
-/**
-* ------
-* Layout
-* ------
-*/
-
-
-
-
-/**
-* ----------
-* Components
-* ----------
-*/
