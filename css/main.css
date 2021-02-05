@@ -1,10 +1,8 @@
-
 /**
 * -------------
 * Global Styles
 * -------------
 */
-
 
 .header-title {
   margin:8px 0;
@@ -46,13 +44,11 @@
   height: 8px;
   background-color: #6236ffbd;
   }
-
-
   body {
-
+  font-family: Poppins;
   }
-  
-  .bigtitle {
+
+  .titre-principal {
   color: #231F20;
   font-size: 40px;
   text-align: center;
@@ -63,12 +59,85 @@
   justify-content: space-around;
   align-items: stretch;
   }
-      
+  
   .colonne{
   flex-basis: 0;
   flex-grow: 1;
   }
+  
+  .colonne1 {
+  background-image: url(../img/bg-yellow.png);
+  text-align: right;
+  }
+  
+  .titre-paragraphe{
+  width: 640px;
+  height: 33px;
+  margin: 0 33px 34px 48px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  }
+  
+  .ordinateur-1{
+  width: 487px;
+  height: 471px;
+  mix-blend-mode: darken;
+  }
+  
+  .paragraphe1{
+  width: 640px;
+  height: 345px;
+  margin: 34px 32px 30px 48px;
+  font-size: 16px;
+  text-align: justify;
+  }
+  
+  .first-button{
+  width: 185px;
+  height: 48px;
+  margin: 30px 31px 22px 455px;
+  padding: 10px 36px;
+  border-radius: 15px;
+  border: solid 4px;
+  color: #fcce00bd;
+  font-size: 20px;
+  }
+  
+  .ordinateur-2{
+  width: 378px;
+  height: 486px;
+  mix-blend-mode: darken;
+  }
+  
+  .colonne2 {
+  background-image: url(../img/bg-orange.png);
+  text-align: center;
+  }
+  
+  .paragraphe2{
+  width: 640px;
+  height: 184px;
+  margin: 32px 47px 32px 32px;
+  font-size: 16px;
+  text-align: justify;
+  }
+  
+  .second-button{
+  width: 185px;
+  height: 48px;
+  margin: 30px 31px 22px 455px;
+  padding: 10px 36px;
+  border-radius: 15px;
+  border: solid 4px;
+  color: #ff6b00bd;
+  font-size: 20px;
+  }
 
+   .footer {
+  color: #ffffff;
+  }
+  
   
   /**
   * ------
@@ -82,4 +151,3 @@
   * Components
   * ----------
   */
-
