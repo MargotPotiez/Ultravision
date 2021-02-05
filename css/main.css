@@ -4,7 +4,7 @@
 * -------------
 */
 
-.header-title {
+  .header-title {
   margin:8px 0;
   padding: 15px;
   font-size: 88px;
@@ -44,6 +44,7 @@
   height: 8px;
   background-color: #6236ffbd;
   }
+  
   body {
   font-family: Poppins;
   }
@@ -70,7 +71,7 @@
   text-align: right;
   }
   
-  .titre-paragraphe{
+  .titre-paragraphe-1{
   width: 640px;
   height: 33px;
   margin: 0 33px 34px 48px;
@@ -104,6 +105,15 @@
   font-size: 20px;
   }
   
+  .titre-paragraphe-2{
+  width: 654px;
+  height: 66px;
+  margin: 0 33px 32px 33px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  }
+    
   .ordinateur-2{
   width: 378px;
   height: 486px;
@@ -118,7 +128,7 @@
   .paragraphe2{
   width: 640px;
   height: 184px;
-  margin: 32px 47px 32px 32px;
+  margin: 32px 47px 32px 33px;
   font-size: 16px;
   text-align: justify;
   }
@@ -134,11 +144,83 @@
   font-size: 20px;
   }
 
-   .footer {
+  .footer {
   color: #ffffff;
   }
   
-  
+  .advance{
+  color: #231F20;
+  font-size: 40px;
+  text-align: center;
+  }
+
+  .bloc-1{
+  display : flex;
+  justify-content: space-around;
+  align-items: stretch;
+  background-image: url(../img/bg-red.png);
+  text-align: left;
+  }
+
+  .titre-bloc{
+  color: #ffffff;
+  font-size:32px;
+  margin : 64px 45px 0 60px;
+  }
+
+  .paragraphe3{
+  color: #ffffff;
+  font-size:24px;
+  margin : 20px 45px 0 60px;
+  }
+
+  .feature1{
+  width: 745px;
+  height: 576px;
+  mix-blend-mode: darken;
+  }
+
+  .third-button{
+  display:block;
+  width: 185px;
+  height: 45px;
+  margin: 32px 455px 356px 60px;
+  padding: 7px 24px 7px 23px;
+  border-radius: 15px;
+  border: solid 4px;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  }
+
+  .bloc-2{
+  display : flex;
+  justify-content: space-around;
+  align-items: stretch;
+  background-image: url(../img/bg-violet.png);
+  text-align: left;
+  }
+
+  .feature2{
+  width: 745px;
+  height: 576px;
+  mix-blend-mode: darken;
+  }
+
+  .bloc-3{
+  display : flex;
+  justify-content: space-around;
+  align-items: stretch;
+  background-image: url(../img/bg-blue.png);
+  text-align: left;
+  }
+
+  .feature3{
+  width: 745px;
+  height: 576px;
+  mix-blend-mode: darken;
+}
+
   /**
   * ------
   * Layout
