@@ -217,22 +217,73 @@
   width: 745px;
   height: 576px;
   mix-blend-mode: darken;
-}
-
-.grille{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 20px;
   }
-  
+
   .footer-title{
   color: #ffffff;
   font-size: 40px;
   text-align: center;
   }
-  
+
+  .grille{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  }
+    
+  .game{
+  position: relative;
+  }
+    
+  .grille-content{
+  position: absolute;
+  background-color: #231F20;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 300ms,
+  }
+    
+  .grille-category{
+  width: 117px;
+  height: 20px;
+  margin: 20px 81px 40px 100px;
+  font-family: Poppins;
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff
+  }
+    
+  .grille-title{
+  width: 280px;
+  height: 32px;
+  margin: 20px 81px 40px 20px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1;
+  text-align: center;
+  color: #fcce00;
+  }
+    
+  .grille-description{
+  width: 280px;
+  height: 69px;
+  margin: 5px 81px 40px 30px;
+  font-family: Poppins;
+  font-size: 16px;
+  text-align: center;
+  color: #ffffff;
+  }
+    
+  .game:hover .grille-content {
+  opacity: 0.81;
+  }
+    
   .footer{
-    background-color: #231F20;
+  background-color: #231F20;
   }
 
   /**
