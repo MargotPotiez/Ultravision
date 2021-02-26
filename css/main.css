@@ -144,9 +144,7 @@
   font-size: 20px;
   }
 
-  .footer {
-  color: #ffffff;
-  }
+
   
   .advance{
   color: #231F20;
@@ -220,10 +218,21 @@
   height: 576px;
   mix-blend-mode: darken;
 }
+
 .grille{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
+  }
+  
+  .footer-title{
+  color: #ffffff;
+  font-size: 40px;
+  text-align: center;
+  }
+  
+  .footer{
+    background-color: #231F20;
   }
 
   /**
